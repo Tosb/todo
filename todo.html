@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do Site</title>
+    <link rel="stylesheet" href="./todo.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="head-text">THINGS TO DO TODAY!</h1>
+      <button id="toggle">Dark Theme</button>
+    </header>
+    <form action="" class="form-group">
+      <input
+        type="text"
+        name="search"
+        id="add-todo"
+        placeholder="...search To-Do"
+      />
+      <!-- <input type="button" value="Search" id="inp-btn" /> -->
+    </form>
+
+    <div class="todos">
+      <h3 class="heading" align="center" style="color: grey; padding: 10px">
+        TASKS
+      </h3>
+      <ul>
+        <li>
+          <span class="task">practice HTML and CSS</span>
+          <span class="delete">delete</span>
+        </li>
+        <li>
+          <span class="task">Eat</span> <span class="delete">delete</span>
+        </li>
+        <li>
+          <span class="task">Sleep</span> <span class="delete">delete</span>
+        </li>
+        <li>
+          <span class="task">practice JavaScript</span>
+          <span class="delete">delete</span>
+        </li>
+      </ul>
+    </div>
+
+    <form class="form-group">
+      <input
+        type="text"
+        name="add-todo"
+        id="add-todo"
+        placeholder="...add next todo"
+      />
+      <button id="inp-btn" type="submit">Add</button>
+    </form>
+
+    <script src="./todo.js"></script>
+  </body>
+</html>
